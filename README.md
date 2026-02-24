@@ -1,110 +1,75 @@
-Epidemiologic Statistics Drill Project
+# Epidemiologic Statistics Drill Project
 
 Structured statistics training focused on applied epidemiology and medical research.
 
-This project builds fluency in statistical reasoning, model interpretation, and diagnostic thinking using realistic healthcare scenarios.
+This project strengthens statistical reasoning, model interpretation, and diagnostic thinking using realistic healthcare scenarios.
 
-Concepts Covered
-Foundations
+## Concepts Covered
 
-Hypothesis testing (H₀ vs H₁, Type I/II error, alpha, power)
+### Foundations
+- Null vs alternative hypotheses
+- Type I and Type II error
+- Alpha and power
+- Correct p-value interpretation
+- Standard deviation vs standard error
+- Confidence intervals and their relationship to testing
+- Test statistics: t, z, F, chi-square
 
-Correct p-value interpretation
+### Comparing Means
+- Independent and paired t-tests
+- Welch’s correction
+- ANOVA (one-way, two-way, interaction terms)
+- Post-hoc testing (Tukey, Bonferroni, Holm)
+- Effect sizes: Cohen’s d, Hedges’ g, eta-squared, omega-squared
+- Assumption checks (normality, equal variance, independence)
 
-Standard deviation vs. standard error
+### Categorical Data Analysis
+- Chi-square test
+- Fisher’s Exact test
+- Odds ratio
+- Risk ratio
+- Risk difference
+- Cramér’s V
+- Epidemiologic interpretation
 
-Confidence intervals and their relationship to testing
+### Correlation and Regression
+- Pearson vs Spearman
+- Linear regression assumptions and diagnostics
+- R-squared vs Adjusted R-squared
+- Multicollinearity and VIF
+- Cook’s distance
+- Logistic regression and odds ratios
+- ROC curve and AUC
+- Calibration and model performance
 
-Test statistics: t, z, F, χ²
+### Survival Analysis
+- Kaplan-Meier curves
+- Log-rank test
+- Cox proportional hazards model
+- Hazard ratio interpretation
+- Proportional hazards assumption
+- Schoenfeld residuals
+- Concordance index
 
-Comparing Means
+### Multiple Testing and Model Evaluation
+- Bonferroni correction
+- Holm correction
+- Benjamini-Hochberg FDR
+- Family-wise error rate
+- Overfitting and cross-validation
+- Statistical vs practical vs clinical significance
 
-Independent and paired t-tests
+### Advanced Topics
+- Power analysis and sample size
+- Mixed effects models
+- Confounding, mediation, interaction
+- Propensity scores
+- Instrumental variables
+- Missing data mechanisms (MCAR, MAR, MNAR)
+- Imputation strategies
 
-Welch’s correction
+## Focus
 
-ANOVA (one-way, two-way, interactions)
+All exercises are grounded in medical research contexts such as treatment response, comorbidities, hospitalization risk, and time-to-event outcomes.
 
-Post-hoc testing (Tukey, Bonferroni, Holm)
-
-Effect sizes: Cohen’s d, Hedges’ g, η², ω²
-
-Assumption checks (normality, equal variance, independence)
-
-Categorical Data
-
-Chi-square and Fisher’s Exact
-
-Odds ratio, risk ratio, risk difference
-
-Cramér’s V
-
-Epidemiologic interpretation
-
-Correlation & Regression
-
-Pearson vs. Spearman
-
-Linear regression (OLS assumptions, diagnostics, VIF, Cook’s distance)
-
-R² vs Adjusted R²
-
-Logistic regression (log-odds, OR interpretation, ROC/AUC, calibration)
-
-Model fit vs predictive performance
-
-Survival Analysis
-
-Kaplan–Meier curves
-
-Log-rank test
-
-Cox proportional hazards model
-
-Hazard ratio interpretation
-
-Proportional hazards assumption
-
-Schoenfeld residuals
-
-Concordance index
-
-Multiple Testing & Model Evaluation
-
-Bonferroni, Holm, Benjamini–Hochberg
-
-Family-wise error rate
-
-Overfitting and cross-validation
-
-Statistical vs practical vs clinical significance
-
-Advanced Topics
-
-Power and sample size
-
-Mixed effects models
-
-Confounding, mediation, interaction
-
-Propensity scores
-
-Instrumental variables
-
-Missing data (MCAR, MAR, MNAR)
-
-Imputation strategies
-
-Focus
-
-All exercises are grounded in medical research settings (treatment comparisons, comorbidities, time-to-event outcomes, risk modeling).
-
-Emphasis is placed on:
-
-Clear statistical language
-
-Assumption diagnostics
-
-Effect size interpretation
-
-Translating output into professional, plain-English conclusions
+Emphasis is placed on precise statistical language, assumption diagnostics, effect size interpretation, and translating results into professional conclusions.
