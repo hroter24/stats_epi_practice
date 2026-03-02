@@ -1,0 +1,18 @@
+a) B0 + B1 * X1 + B2 * X2
+   -2.10 + (0.58 * X1) + (0.35 * X2) + (0.72 * X3)
+
+b) Log odds are 0.58. To interpret must convert to odds ratio 
+To get the odds ratio, we must expononetiate the log odds ratio which is e^0.58 = 1.78. Although I am struggling to find the reference category here.
+This odds ratio that for whatever the reference category is, the odds of being in the hospital after one year increase by 1.79x
+
+c) OR = e^0.35 = 1.419 which means for every increase in age by 10 years the odds of going to the hospital within 1 year increase by 1.149x
+
+d) Diabtets has the highest log odds at 0.72
+
+e) Again this example fails to explain what the baseline coding is. Howver, all variables within this model are positive and statisically signficant with a p-value < 0.05
+suggesting that as each of the variables increases, it raises of the odds of going to the hosptial within 1 year. Note that biologic vs standard does have the a standard error of'
+.22 which is right around where the model performs. 
+
+f) 0.74 means that our model does an intermediate job at predicting whether or not a patient will return to the hosptial within 1 year. 
+
+g) Very hard question. Please explain the answer to me
